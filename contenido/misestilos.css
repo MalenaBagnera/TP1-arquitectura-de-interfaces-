@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Momo+Trust+Display&display=swap');
+
+body {
+    background-color: rgb(152, 6, 6);
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+main {
+    background-color: rgb(240, 240, 231);
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto 0 auto;
+
+}
+
+h1,h3 {
+    color: rgb(152, 6, 6);
+    text-align: center;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+p {
+    color: rgb(75, 0, 7);
+    padding: 10px;
+
+}
+
+header,
+footer {
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    color: #9c0101;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+    
+
+aside {
+    border: 4px solid #9c0101;
+    background-color: rgb(250, 206, 206);
+}
+
+/*  efecto de que la imagen se agrande suavemente */
+.foto {
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.foto:hover {
+    transform: scale(1.1);
+}
+
+
+.link {
+    color: rgb(191, 2, 8);
+}
+
+.texto {
+    text-align: center;
+}
